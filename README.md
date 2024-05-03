@@ -9,7 +9,7 @@ Command-line tools to fetch interesting data (mostly image and text) about our s
 
 **Important**: Read through the rules of these services before you use any of the tools.
 
-Demo video on YouTube:
+Demo video on YouTube:  
 [![demo video](https://img.youtube.com/vi/WGMR_rx8r8Q/hqdefault.jpg)](https://www.youtube.com/embed/WGMR_rx8r8Q)
 
 
@@ -68,7 +68,7 @@ space2obs.py <TOOL> [OPTIONS]
 - `--eonet-text-template TEXT`: Specify the template of a line in the text file. Add linebreaks with `\n`. Variables: `{date}`, `{id}`, `{categories}`, `{title}`. Default: `{status:>6} {date} {id} {categories}: {title}`
 
 **soho**:
-- `--soho-cameras ID [ID ...]`: Specify one or more camera IDs to download images from. Choices: `c2`, `c3`, `eit_171`, `eit_195`, `eit_284`, `eit_304`, `hmi_igr`, `hmi_mag`. Default: `all`
+- `--soho-cameras ID [ID ...]`: Specify one or more camera IDs to download images from. Choices: `all`, `c2`, `c3`, `eit_171`, `eit_195`, `eit_284`, `eit_304`, `hmi_igr`, `hmi_mag`. Default: `all`
 
 
 
